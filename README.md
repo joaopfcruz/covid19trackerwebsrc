@@ -1,1 +1,1 @@
-Source files for web app @ xxxxx.github.io
+Source files for web app @ https://coronacompare.github.io/
