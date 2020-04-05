@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import { AppNavbarBrand } from '@coreui/react';
-import logo from '../../assets/img/brand/logo.svg'
+import logo from '../../assets/img/brand/logo.png'
 
 const propTypes = {
   children: PropTypes.node,
@@ -19,7 +19,7 @@ class DefaultHeader extends Component {
     return (
       <React.Fragment>
         <AppNavbarBrand
-          full={{ src: logo, width: 89, height: 25, alt: 'CoreUI Logo' }}
+          full={{ src: logo, width: 150, height: 40, alt: 'CoronaCompare Logo' }}
         />
         {/*<AppAsideToggler className="d-lg-none" mobile />*/}
       </React.Fragment>
