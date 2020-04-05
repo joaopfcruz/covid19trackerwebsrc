@@ -943,7 +943,7 @@ class Dashboard extends Component {
 
 
         <Row>
-          <Col xs="12" sm="6" lg="8">
+          <Col xs="12" sm="6" lg="7">
             <Card>
               <CardHeader>
                 <span id="infectedRunningChart_title">Confirmed Infections</span>
@@ -956,7 +956,7 @@ class Dashboard extends Component {
               </CardBody>
             </Card>
           </Col>
-          <Col xs="12" sm="6" lg="4">
+          <Col xs="12" sm="6" lg="5">
             <Card>
             <CardHeader>
               <span id="infectedPerMillionChart_title">Confirmed Infections Per One Million Population</span>
@@ -974,7 +974,7 @@ class Dashboard extends Component {
 
 
         <Row>
-          <Col xs="12" sm="6" lg="8">
+          <Col xs="12" sm="6" lg="7">
             <Card>
               <CardHeader>
               <span id="deathsRunningChart_title">Confirmed Deaths</span>
@@ -987,7 +987,7 @@ class Dashboard extends Component {
               </CardBody>
             </Card>
           </Col>
-          <Col xs="12" sm="6" lg="4">
+          <Col xs="12" sm="6" lg="5">
             <Card>
             <CardHeader>
               <span id="deathsPerMillionChart_title">Confirmed Deaths Per One Million Population</span>
